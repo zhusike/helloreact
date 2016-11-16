@@ -42,8 +42,11 @@ require()总是会优先加载核心模块。例如，require('http')总是返�
 
 首先是在文件夹的根目录创建一个叫做package.json的文件，它需要指定一个main模块。下面是一个package.json文件的示例。  
 
-{ "name" : "some-library",
-  "main" : "./lib/some-library.js" }
+***
+`{ "name" : "some-library",
+  "main" : "./lib/some-library.js" }`  
+  
+***  
   示例中这个文件，如果是放在./some-library目录下面，那么require('./some-library')就将会去加载./some-library/lib/some-library.js。  
   
   如果目录里没有package.json这个文件，那么node就会尝试去加载这个路径下的index.js或者index.node。例如，若上面例子中，没有package.json，那么require('./some-library')就将尝试加载下面的文件：  
