@@ -54,4 +54,4 @@ require()总是会优先加载核心模块。例如，require('http')总是返�
   
 * ./some-library/index.js
 * ./some-library/index.node
-#### 来至：http://nodeapi.ucdok.com/api/all.html#all_229152
+#### 来至：http://nodeapi.ucdok.com/api/globals.html#globals_require_1910
